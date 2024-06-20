@@ -5,7 +5,7 @@ const Character = (props) => {
   const [rotation, setRotation] = useState(0)
 
 useEffect(()=> {
-  console.log(rotation)
+  console.log(`the image has been rotated`)
 }, [rotation])
 
 return(
